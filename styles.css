@@ -5,6 +5,7 @@ body {
     height: 100vh;
     margin: 0;
     background-image: url(fondo.jpg);
+    background-size: 3.5%;
 }
 
 .container {
@@ -61,10 +62,22 @@ button {
 
 #messageContainer {
     font-size: 30px;
-    color: #FF0000; /* Color rojo */
+    color: #ff0000; /* Color rojo */
     font-family: 'YourDesiredFont', sans-serif; /* Reemplaza 'YourDesiredFont' con la fuente que desees */
     text-shadow: 2px 2px 4px #000; /* Borde simulado */
     animation: pulse 0.5s infinite alternate; /* Animación de palpitación más rápida */
+    background: white;
+    border-radius: 10px;
+}
+
+#question {
+    font-size: 30px;
+    color: white; /* Color rojo */
+    font-family: 'YourDesiredFont', sans-serif; /* Reemplaza 'YourDesiredFont' con la fuente que desees */
+    text-shadow: 2px 2px 4px #000; /* Borde simulado */
+    animation: pulse 0.5s infinite alternate; /* Animación de palpitación más rápida */
+    background: black;
+    border-radius: 10px;
 }
 
 @keyframes pulse {
